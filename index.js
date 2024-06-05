@@ -24,7 +24,7 @@ const user = {
 };
          
 // Routes
-app.get('/login', (req, res) => { 
+app.get('/', (req, res) => { 
    res.render('index1');
 });     
 
